@@ -44,6 +44,12 @@ public class Main {
 
         System.out.println("Ingresos: "+ emBaseComision.ingresos());
         System.out.println(emBaseComision.toString());
+
+        System.out.println("\n Empleado por horas: ");
+        EmpleadoPorHoras emHoras = new EmpleadoPorHoras("Sam","Leos","222-22-2222",
+                10000,0.6,50.0,4300.50);
+        emHoras.calcularPago();
+        System.out.println(emHoras.toString());
     }
 
 }
